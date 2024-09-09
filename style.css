@@ -1,0 +1,157 @@
+body{
+    margin: 0 auto;
+    box-sizing: border-box;
+   
+}
+.im .logo{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    height: auto;
+}
+
+.first{
+    text-align: center;
+
+}
+.first p,
+.three p,
+.four .se p,
+.five p,
+.six p,
+.seven p,
+.nine p{
+    opacity: 0.5;
+}
+.sec,
+.ten{
+    text-align: center;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-bottom: 110px;
+    
+}
+.sec .ios,
+.ten .ios{
+    background-color: rgb(13, 228, 228);
+   margin-right: 10px;
+}
+.sec .mac,
+.ten .mac{
+    background-color: rgb(95, 95, 187);
+   
+}
+.sec .mac,
+.sec .ios,
+.ten .mac,
+.ten .ios{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    align-content: center;
+}
+.sec .mac:hover,
+.sec .ios:hover,
+.ten .mac:hover,
+.ten .ios:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.three ,
+.five,
+.photo,
+.six,
+.seven,
+.nine{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.four{
+    display: flex;
+    flex: 1;
+    margin-bottom: 100px;
+}
+.four .se,
+.four .fi{
+    text-align: center;
+}
+.four .se{
+    margin-left: 50px;
+}
+.four .se h4{
+    font-size: larger;
+}
+@media screen and (max-width:768px) {
+    .four,
+    .seven,
+    .eight{
+        flex-direction: column;
+        width: 100%;
+    
+    }
+    .seven img,
+    .eight img{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    
+}
+.seven{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+
+}
+.seven span{
+    flex: 1;
+    text-align: center;
+   
+}
+.eight{
+    display: flex;
+    margin: 0 80px 100px 100px;
+}
+.eight span{
+    flex: 1;
+
+}
+.last{
+    display: flex;
+    background-color: rgb(236, 233, 233);
+    width: 100%;
+    height: 100px;
+    
+}
+.last span{
+    flex: 1;
+    text-align: center;
+    padding-top: 30px;
+   
+}
+.last .lo img{
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+}
+.last span .f,
+.last span .p{
+    margin-bottom: 5px;
+}
+.last span div:hover{
+    color: rgb(75, 148, 148);
+    cursor: pointer;
+    
+}
+
+
